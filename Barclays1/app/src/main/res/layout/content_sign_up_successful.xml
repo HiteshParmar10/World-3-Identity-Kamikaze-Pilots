@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_sign_up_successful"
+    tools:context="com.barclays1.SignUpSuccessful">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Select Method for opening Savings account."/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_have_certi"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:text="Already have certificates"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="23sp"
+            android:id="@+id/iv_temp"
+            android:layout_above="@+id/btn_signup"
+            android:background="#FFFFFF"/>
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_apply"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Normal eKYC"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="23sp"
+            android:id="@+id/iv_temp111"
+            android:layout_above="@+id/btn_towallet_fromsignup"
+            android:background="#FFFFFF"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_towallet_fromsignup"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:text="Your Wallet !"/>
+        </LinearLayout>
+</RelativeLayout>

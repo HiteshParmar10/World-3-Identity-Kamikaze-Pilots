@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.barclays1.Guidelines">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tv_guide"
+        android:textSize="20sp"
+        android:text="Q 1. What is KYC? Why is it required?
+
+Response: KYC means “Know Your Customer”. It is a process by which banks obtain information about the identity and address of the customers. This process helps to ensure that banks’ services are not misused. The KYC procedure is to be completed by the banks while opening accounts and also periodically update the same.
+
+
+\n\n
+
+Q 2. What are the KYC requirements for opening a bank account?
+
+Response: To open a bank account, one needs to submit a ‘proof of identity and proof of address’ together with a recent photograph.
+
+\n\n
+
+Q3. What are the documents to be given as ‘proof of identity’ and ‘proof of address’?
+
+Response: The Government of India has notified six documents as ‘Officially Valid Documents (OVDs) for the purpose of producing proof of identity. These six documents are Passport, Driving Licence, Voters’ Identity Card, PAN Card, Aadhaar Card issued by UIDAI and NREGA Card. You need to submit any one of these documents as proof of identity. If these documents also contain your address details, then it would be accepted as as ‘proof of address’. If the document submitted by you for proof of identity does not contain address details, then you will have to submit another officially valid document which contains address details.
+
+(http://rbidocs.rbi.org.in/rdocs/content/pdfs/PMLAME170714_A.pdf)
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CA090614FCN.pdf)
+
+\n\n
+
+Q 4. If I do not have any of the documents listed above to show my ‘proof of identity’, can I still open a bank account?
+
+Response: Yes. You can still open a bank account known as ‘Small Account’ by submitting your recent photograph and putting your signature or thumb impression in the presence of the bank official.
+
+\n\n
+
+Q 5. Is there any difference between such ‘small accounts’ and other accounts
+
+Response: Yes. The ‘Small Accounts’ have certain limitations such as:
+
+    balance in such accounts at any point of time should not exceed Rs.50,000
+    total credits in one year should not exceed Rs.1,00,000
+    total withdrawal and transfers should not exceed Rs.10,000 in a month.
+    Foreign remittances cannot be credited to such accounts.
+
+Such accounts remain operational initially for a period of twelve months and thereafter, for a further period of twelve months, if the holder of such an account provides evidence to the bank of having applied for any of the officially valid documents within twelve months of the opening of such account. The bank will review such account after twenty four months to see if it requires such relaxation.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/COSA270111.pdf)
+
+
+\n\n
+Q 6. Would it be possible, if I do not have any of the officially valid documents, to have a bank account, which is not subjected to any limitations as in the case of ‘small accounts’?
+
+Response: A normal account can be opened by submitting a copy of any one of the following documents:
+
+(i) Identity card with person’s photograph issued by Central/State Government Departments, Statutory/Regulatory Authorities, Public Sector Undertakings, Scheduled Commercial Banks, and Public Financial Institutions;
+
+or
+
+(ii) letter issued by a gazetted officer, with a duly attested photograph of the person.
+
+This, however, is not a general rule and it is left to the judgement of the banks to decide whether this simplified procedure can be adopted in respect of any customer.
+
+(http://rbidocs.rbi.org.in/rdocs/content/pdfs/PMLAME170714_A.pdf)
+
+
+\n\n
+Q 7. Are banks required to categorise their customers based on risk assessment?
+
+Response: Yes, banks are required to classify the customers into ‘low’, ‘medium’ and ‘high’ categories depending on their AML risk assessment.
+
+
+\n\n
+Q 8. Do banks inform customers about this risk categorisation?
+
+Response: No
+
+
+\n\n
+Q 9. If I refuse to provide requested documents for KYC to my bank for opening an account, what may be the result?
+
+Response: If you do not provide the required documents for KYC, the bank may not be able to open your account.
+
+(http://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=9031)
+
+\n\n
+
+Q 10. Can I open a bank account with only an Aadhaar card?
+
+Response: Yes, Aadhaar card is now accepted as a proof of both, identity and address.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYC101212CFS.pdf)
+
+
+\n\n
+Q 11. What is e-KYC? How does e-KYC work?
+
+Response: e-KYC refers to electronic KYC.
+
+e-KYC is possible only for those who have Aadhaar numbers. While using e-KYC service, you have to authorise the Unique Identification Authority of India (UIDAI), by explicit consent, to release your identity/address through biometric authentication to the bank branches/business correspondent (BC). The UIDAI then transfers your data comprising name, age, gender, and photograph of the individual, electronically to the bank/BC. Information thus provided through e-KYC process is permitted to be treated as an ‘Officially Valid Document’ under PML Rules and is a valid process for KYC verification.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CKUI0209013E.pdf)
+
+
+\n\n
+Q 12. Is introduction necessary while opening a bank account?
+
+Response: No, introduction is not required.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYC101212CFS.pdf)
+
+
+\n\n
+Q 13. If I am staying in Chennai but if my address proof shows my address of New Delhi, can I still open an account in Chennai?
+
+Response: Yes. You can open a bank account in Chennai even if your permanent address is in New Delhi and you do not have a proof of address for your Chennai. In that case, you can submit an officially valid document (proof of address document) of your New Delhi address together with a declaration about your Chennai address, for communication purposes.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CA090614FCN.pdf)
+\n\n
+Q 14. Can I transfer my existing bank account from one place to another? Do I need to undergo full KYC again?
+
+Response: Yes, it is possible to transfer an account from one branch to another branch of the same bank. There is no need for KYC exercise again to transfer a bank account from one branch to another branch of the same bank. However, if there is a change of address, then you would have to submit a declaration about the current address. If the address in the ‘officially valid documents’/ ‘proof of address’ is neither permanent nor current address, a new proof of address would be required within six months. In case of opening an account in another bank, however, you would have to undergo KYC exercise afresh.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYCAML290113_F.pdf and
+http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CA090614FCN.pdf)
+\n\n
+Q 15. Do I have to furnish KYC documents for each account I open in a bank even though I have furnished the documents of proof of identity and address?
+
+Response: No, if you have opened an account with a bank, which is KYC compliant, then for opening another account with the same bank, furnishing of documents is not necessary.
+\n\n
+Q 16. For which banking transactions do I need to quote my PAN number?
+
+Response: PAN number needs to be quoted for transactions, such as, account opening, transactions above Rs.50,000 (whether in cash or non-cash), etc. A full list of transaction where PAN number needs to be quoted can be accessed from website of Income Tax Department at the following URL:
+
+http://law.incometaxindia.gov.in/DIT/File_opener.aspx?page=ITRU&amp;schT=rul&amp;csId=21533008-bbb4-4f86-b609-9296e8b5223e&amp;rNo=114B&amp;sch=&amp;title=Taxmann%20-%20Direct%20Tax%20Laws
+\n\n
+Q 17. Whether KYC is applicable for Credit/Debit/Smart/Gift cards?
+
+Response: Yes. Full KYC exercise is necessary for Credit/Debit/Smart/for purchaser of Gift Cards and also in respect of add-on/ supplementary cards.
+
+(http://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=9031)
+\n\n
+Q 18. I do not have a bank account. But I need to make a remittance. Is KYC applicable to me?
+
+Response: Yes. KYC exercise needs to be done for all those who want to make domestic remittances of Rs. 50,000 and above and all foreign remittances.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYC12072013F.pdf)
+\n\n
+Q 19. Can I purchase a Demand Draft/Payment Order/Travellers Cheque against cash without KYC?
+
+Response: Demand Draft/Payment Order/Travellers Cheques for Rs.50,000/- and above can be issued only by way of debiting the customer's account or against cheques.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYC12072013F.pdf)
+\n\n
+Q 20. Do I need to submit KYC documents to the bank while purchasing third party products (like insurance or mutual fund products) from banks?
+
+Response: Yes, all customers who do not have accounts with the banks (known as walk-in customers) have to produce proof of identity and address while purchasing third party products from banks if the transaction is for Rs.50,000 and above. KYC exercise may not be necessary for bank’s own customers for purchasing third party products. However, instructions to make payment by debit to customers’ accounts or against cheques for remittance of funds/issue of travellers’ cheques, sale of gold/silver/platinum and the requirement of quoting PAN number for transactions of Rs.50,000 and above would be applicable to purchase of third party products from banks by bank’s customers as also to walk-in customers.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/KYC12072013F.pdf)
+\n\n
+Q 21. My KYC was completed when I opened the account. Why does my bank insist on doing KYC again?
+
+Response: Banks are required to periodically update KYC records. This is a part of their ongoing due diligence on bank accounts. The periodicity of such updation would vary from account to account or categories of accounts depending on the bank’s perception of risk. Periodical updation of records also helps prevent frauds in customer accounts.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CPU230713FD.pdf)
+\n\n
+Q 22. What are the rules regarding periodical updation of KYC?
+
+Response: Different periodicities have been prescribed for updation of KYC records depending on the risk perception of the bank. KYC is required to be done at least every two years for high risk customers, at least every eight years for medium risk customers and ten years for low risk customers. This exercise would involve all formalities normally taken at the time of opening the account.
+
+If there is no change in status with respect to the identity (change in name, etc.) and/or address, such customers who are categorised as ‘low risk’ by the banks may now submit a self-certification to that effect at the time of periodic updation.
+
+In case of change of address of such ‘low risk’ customers, they could merely forward a certified copy of the document (proof of address) by mail/post, etc. Physical presence of such low risk customer is not required at the time of periodic updation.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT269FKYC1014.pdf)
+
+Customers who are minors have to submit fresh photograph on becoming major.
+
+(http://rbidocs.rbi.org.in/rdocs/notification/PDFs/CPU230713FD.pdf)
+\n\n
+Q 23. What if I do not provide the KYC documents at the time of periodic updation?
+
+Response: If you do not provide your KYC documents at the time of periodic updation bank has the option to close your account. Before closing the account, the bank may, however, impose ‘partial freezing’ (i.e. initially allowing all credits and disallowing all debits while giving an option to you to close the account and take your money back). Later even all credits also would not be allowed. The ‘partial freezing’ however, would be exercised by the bank after giving you due notice.
+
+(http://rbi.org.in/scripts/NotificationUser.aspx?Id=9289&amp;Mode=0)
+\n\n
+Q 24. How is partial freezing imposed?
+
+Response: Partial freezing is imposed in the following ways:
+
+    While imposing ‘partial freezing’, banks have to give due notice of three months initially to the customers before exercising the option of ‘partial freezing’.
+
+    After that a reminder for further period of three months would be issued.
+
+    Thereafter, banks may impose ‘partial freezing’ by allowing all credits and disallowing all debits with the freedom to close the accounts.
+
+    If the accounts are still KYC non-compliant after six months of imposing initial ‘partial freezing’ banks may disallow all debits and credits from/to the accounts, rendering them inoperative.
+
+    Thus, one year after the account is due for updation, if you do not provide the necessary documents/information, your account would become fully inoperative i.e, neither credits nor debits would be allowed in the account.
+
+Meanwhile, the account holders can revive accounts by submitting the KYC documents."/>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EasyWay</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_guide">Guidelines</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_launcher">EasyWay</string>
+    <string name="title_activity_login_activity">Login</string>
+    <string name="title_activity_request_otp_activity">EasyWay</string>
+    <string name="barcode_image">Barcode Image</string>
+    <string name="verify_button">Verify</string>
+    <string name="aadhaar_number_label">Aadhaar Number</string>
+    <string name="aadhaar_number_hint">Enter your aadhaar number</string>
+    <string name="name_label">Name</string>
+    <string name="name_hint">Enter name as per aadhaar</string>
+    <string name="authenticate">Proceed to Fingerprint Scan</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_sign_up_successful">EasyWay</string>
+    <string name="title_activity_posttemp">POSTtemp</string>
+    <string name="title_activity_esign">Esign</string>
+    <string name="title_activity_biometric">Biometric Verification</string>
+    <string name="title_activity_finger">Fingerprint</string>
+    <string name="title_activity_digital_certificates">EasyWay</string>
+    <string name="title_activity_apply">EasyWay</string>
+    <string name="title_activity_wallet">EasyWay</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
