@@ -32,3 +32,5 @@ Other Idea - We can implement Typing pattern matching OR Voice verification apar
 
 Just two steps and KYC process is done. So, user finally has mobile wallet with limit upto Rs.1,00,000/-.
 
+P.S: User can scan QR code of their Aadhar card to autofill their details into the app.
+
